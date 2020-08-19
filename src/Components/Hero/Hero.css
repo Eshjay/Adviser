@@ -1,0 +1,28 @@
+.hero {
+    background-color: #9c578f;
+    background-image: url(./whiteMontain.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    height: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-text{
+    text-align: center;
+    margin: auto;
+    opacity: 1;
+    font-size: 20px;
+    color:white;
+}
+
+.hero-image img{
+    height: 500px;
+    width: auto;
+}
+
+.center{
+   position: relative;
+   align-self: center;
+}
