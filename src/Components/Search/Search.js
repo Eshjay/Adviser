@@ -11,7 +11,7 @@ function Search() {
     const[advices, setAdvices] = useState({ slips: [] });
     const[found, setFound] = useState(true);
     const text = 'Tweet';
-    const shareText = '';
+    const shareText = 'Check https://advise.netlify.com for more... ';
     const onInputChange = (e) => {
         setSearchQuery(e.target.value);
     };
